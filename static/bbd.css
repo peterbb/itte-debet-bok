@@ -1,0 +1,30 @@
+
+
+body {
+    background-color: green;
+    color: yellow;
+}
+
+.namebutton {
+    width: 90%;
+}
+
+#userlist {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    margin-left: 0px;
+}
+
+#menu {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    margin-left: 25%,
+}
+
+#transactions {
+    display: inline-block;
+    float: left;
+    width: 30%;
+}
