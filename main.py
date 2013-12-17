@@ -1,7 +1,7 @@
-import json
+import json, os
 from bottle import request, route, get, put, static_file, post, delete, run, redirect
 
-ROOT = "/home/peterbb/repos/bbd/static/"
+ROOT = os.path.join(os.getcwd(), "static")
 
 account_uid = 2
 account_db = {
